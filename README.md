@@ -2,6 +2,8 @@
 
 This repository collects a sequence of diffusion-model experiments that start with image generation on MNIST and extend to policy learning and trajectory generation for robotics.
 
+Diffuser was first introduced in [3] and Diffusion Policy was first introduced in [4]. The architecture for my recreation of Diffuser and Diffusion Policy closely follows the original methods outlined in those papers, and this project attempts to recreate portions of the results presented there. For an in-depth treatment of the theory behind these models, I refer you to those papers.
+
 ## Brief overview of main folders
 
 - `ddpm/` - baseline denoising diffusion probabilistic model training and sampling on MNIST.
