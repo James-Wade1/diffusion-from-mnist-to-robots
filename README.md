@@ -18,30 +18,32 @@ This repository collects a sequence of diffusion-model experiments that start wi
 
 ## DDPM video result
 
-<video src="ddpm/cosine/ddpm_sampling_cosine_2026-03-27_01-48-31.mp4" controls muted playsinline width="720"></video>
+https://github.com/user-attachments/assets/af3f8983-b8fb-44fa-b06c-2ba9c7d80d98
 
 ## DDIM video result
 
-<video src="ddim/cosine/ddim_comparison.mp4" controls muted playsinline width="720"></video>
+https://github.com/user-attachments/assets/58d29d2f-6df6-471c-9f1a-5f6644ddfb85
 
 ## Diffusion Policy results
-
-<video src="diffusion_policy/results/dp_1000denoising_100inference.mp4" controls muted playsinline width="720"></video>
+https://github.com/user-attachments/assets/22a757cd-00ec-4b24-83f7-9df3f5ceb866
 
 ![Diffusion Policy max reward bar chart](diffusion_policy/results/max_reward_bar_chart.png)
 
 ## Diffuser results
 ### Randomly sampled trajectories without obstacle avoidance
 This video shows that diffuser understands what a "smooth" trajectory looks like.
-<video src="diffuser/results/random_sampled_trajectories.mp4" controls muted playsinline width="720"></video>
+
+https://github.com/user-attachments/assets/5dc55738-1c92-45de-bd79-1dc6b6f1f3e5
 
 ### Inpainted trajectories
-This video shows that we can guide Diffuser to start and end in a particular configuration through inpainting.
-<video src="diffuser/results/inpainted_trajectories_good.mp4" controls muted playsinline width="720"></video>
+This video shows that we can guide Diffuser to start and end in a particular configuration through inpainting, still without obstacle avoidance.
+
+https://github.com/user-attachments/assets/dc2c7067-275e-45b6-a66c-d5bf42b0dede
 
 ### Obstacle-averse trajectory
 This video shows that we can guide Diffuser to avoid obstacles at runtime through classifier-guided diffusion, rather than through training. Though this video shows a very jerky trajectory, the original authors of the paper were able to produce good results, and I am confident that further tuning can improve this example much more.
-<video src="diffuser/results/guided_trajectory_obstacle_averse.mp4" controls muted playsinline width="720"></video>
+
+https://github.com/user-attachments/assets/35d4616a-afa9-4aa7-8d00-7ab64653d076
 
 ## Papers cited
 
